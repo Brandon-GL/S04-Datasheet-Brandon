@@ -10,5 +10,5 @@ tasks:
   deploy:
     deps: [build]
     cmds:
-      - scp bin/task student@profy12-server.eddi.cloud:/home/student/
-      - ssh student@profy12-server.eddi.cloud "chmod u+x task"
+      - scp bin/task student@brandon-gl-serveur.eddi.cloud:/home/student/
+      - ssh student@brandon-gl-serveur.eddi.cloud "chmod u+x task"
